@@ -28,15 +28,88 @@
     <a href="./index.html" class="logo">Nikolai Bashkirov</a>
     <div class="header-right">
         <a href="./index.html">Home</a>
-        <a href="./Alyssa_CRM.html">Alyssa CRM</a>
-        <a class="active" href="./projects.html">Other Projects</a>
+        <a class="active" href="./projects.html">Projects</a>
+        <a href="./About.html">About me</a>
     </div>
 </div>
-<h2>My Projects</h2>
+<h1>My Projects</h1>
 <p>Below you will find some of the projects I have completed in the past.</p>
 <hr>
 
-<h3 id="message-me">MessageMe Chat App</h3>
+<h2 id="kz2">Website, CRM, and scheduling tools for KZ2 Moving Company</h2>
+<a href="https://kz2movingcompany.com" target="_blank">
+<img class="project-images" src="img/kz2_website.png" alt="Alyssa Components Scheme" width=650>
+</a>
+<dl>
+    <dt><h4>Languages & Tools</h4></dt>
+    <dd><p>Java, TypeScript, React, Google APIs (Mail, Maps, Calendar, Sheets), AWS, Linux, Selenium, Quartz, Spring, Gradle, JUnit, Twilio, HTML,
+        CSS, Figma, Postman</p></dd>
+    <dt><h4>Website: <a href="https://kz2movingcompany.com" target="_blank" style="text-decoration: underline; color: blue; cursor: pointer;">https://kz2movingcompany.com/</a></h4></dt>
+    <dt><h4>Quoting and scheduling</h4></dt>
+    <dd><p>
+        The back-end, implemented with Java/Spring, interacts with various web platforms such as Yelp using Selenium. 
+        Users of these platforms can request and promptly receive custom quotes and availability provided by the app. 
+        The Quoting API is also utilized by the website and a desktop CLI app.
+    </p>
+    <p>
+        The app analyzes quote requests to determine the options the business can offer. 
+        The company typically has multiple teams working in different areas on jobs of varying sizes, starting and finishing at different times. 
+        The teams themselves can consist of 2-6 members, use different sizes of trucks, and require different sets of equipment.
+    </p>
+    <p>
+        In performing this analysis, the app considers the current schedule and all relevant factors related to the teams. 
+        It strives to balance customer convenience, minimize idle driving miles and team hours, and ensure that an appropriately sized truck with the necessary equipment is provided. 
+        If a perfect match isn't possible, the program suggests alternative options and may offer a discount if the customer agrees to a less convenient time.
+    </p>
+    <p>
+        Once the customer sends a booking request, the job is added to the spreadsheets and calendar via Google APIs, 
+        followed by the customer and each member of the assigned team receiving email and SMS notifications. 
+        The day before the job, the customer and each team member receive another SMS asking them to confirm their readiness for the move. 
+        If someone does not confirm, the manager is notified.
+    </p><p>
+        Additional functions include requesting feedback and reviews, tracking revenue and expenses, performing accounting, 
+        monitoring a database of blacklisted customers among moving companies, and keeping track of important due dates.
+    </p></dd>
+</dl>
+    <img class="project-images" src="img/Schedule_scheme.png" alt="Alyssa Schedule Scheme" width=600>
+    <dl>
+        <dt><h4>Motivation</h4></dt>
+        <dd><p>As I was taking my first Java course, I was also helping my friend to start a moving company. One of my
+            responsibilities was responding to a lot of quote requests every day. It was a repetitive task that required a quick and
+            accurate response. Sometimes I would spend too much time doing calculations, so the customer would move forward
+            with another business, and sometimes I would make mistakes in a hurry. That's when I decided to apply my
+            just-learned programming skills to improve my efficiency.</p></dd>
+        <dt><h4>First Launch</h4></dt>
+        <dd><p>A month later I rolled out my first build. The product was raw and downright terrible. My program would crash
+            every few hours and I often had to spend long nights testing and debugging. Quite often I would sit in a class
+            and a customer would write something ridiculous in their quote request sending my software to a crash and
+            requiring me to respond to quotes manually.</p></dd>
+        <dt><h4>Results</h4></dt>
+        <dd><p>Despite a bumpy start, the initiative turned out a tremendous success. 
+            Customers loved our quick and detailed quotes and booked their moves with us by the time others managed to reply. 
+            The app reduced the manager's (that's also me)
+            workload by 80% and increased the business' revenue by 150%. As time went by and I was becoming a better
+            programmer, I was improving my code and even had to rewrite almost the entire project twice. Throughout the
+            years, the app got many new features and became a robust product.</p></dd>
+    </dl>
+<dl>
+    <dt><h4>Skills</h4></dt>
+    <dd><p>
+        <ll>
+            <li>Most importantly - I learned how to do research and find technical solutions for my ideas.</li>
+            <li>I learned how to setup a Java/Gradle project and how to write unit tests with JUnit.</li>
+            <li>I found out how to use Spring framework for accepting and handling HTTP requests.</li>
+            <li>I figured out how to deploy my app to the cloud, so that it is reliably available 24/7.</li>
+            <li>Before I studied multithreading in class, I learned about the concept on my own and implemented that cool feature in my app.</li>
+            <li>I learned best front-end practices, picked up React, and got come practice with HTML, CSS, and Figma.</li>
+        </ll>
+    </p></dd>
+</dl>
+<hr>
+<br>
+<br>
+
+<h2 id="message-me">MessageMe Chat App</h2>
 <img class="project-images" src="img/message_me.png" alt="Message Me Project Chatroom Screen" width=650>
 <dl>
     <dt><h4>Languages & Tools</h4></dt>
@@ -59,8 +132,10 @@
     </p></dd>
 </dl>
 <hr>
+<br>
+<br>
 
-<h3 id="alpha-blog">Alpha Blog</h3>
+<h2 id="alpha-blog">Alpha Blog</h2>
 <img class="project-images" src="img/alpha_blog.png" alt="Alpha Blog Project Home Screen" width=650>
 <dl>
     <dt><h4>Languages & Tools</h4></dt>
@@ -97,8 +172,10 @@
     </p></dd>
 </dl>
 <hr>
+<br>
+<br>
 
-<h3 id="build-your-own-world">Build Your Own World</h3>
+<h2 id="build-your-own-world">Build Your Own World</h2>
 <img class="project-images" src="img/byow.gif" alt="Build Your Own World Project Gif" width=650>
 <dl>
     <dt><h4>Languages & Tools</h4></dt>
@@ -124,8 +201,10 @@
     </p></dd>
 </dl>
 <hr>
+<br>
+<br>
 
-<h3 id="ngordnet">NGordnet (NGrams)</h3>
+<h2 id="ngordnet">NGordnet (NGrams)</h2>
 <img class="project-images" src="img/ngordnet.png" alt="NGordnet Project Cover" width=500>
 <dl>
     <dt><h4>Languages & Tools</h4></dt>
@@ -146,8 +225,10 @@
         NgordnetQueries.</p></dd>
 </dl>
 <hr>
+<br>
+<br>
 
-<h3 id="tic-tac-toe">Tic-Tac-Toe</h3>
+<h2 id="tic-tac-toe">Tic-Tac-Toe</h2>
 <img class="project-images" src="img/TicTacToe.png" alt="TicTacToe Project Cover" width=500>
 <dl>
     <dt><h4>Languages & Tools</h4></dt>
@@ -162,8 +243,10 @@
         for me as I was building my first Java application with a GUI ever!</p></dd>
 </dl>
 <hr>
+<br>
+<br>
 
-<h3 id="animal-classifier">Wolf-like Animal Classifier</h3>
+<h2 id="animal-classifier">Wolf-like Animal Classifier</h2>
 <img class="project-images" src="img/wolf_app.png" alt="Wolf-like Animal Classifier" width=700>
 <dl>
     <dt><h4>Languages & Tools</h4></dt>
@@ -183,8 +266,10 @@
     </h4>
 </dl>
 <hr>
+<br>
+<br>
 
-<h3 id="pytorch">Open Source contribution to Pytorch</h3>
+<h2 id="pytorch">Open Source contribution to Pytorch</h2>
 <img class="project-images" src="img/pytorch_proj.png" alt="PyTorch Logo Cover" width=400>
 <dl>
     <dt><h4>Languages & Tools</h4></dt>
@@ -203,8 +288,10 @@
         identify the root of the problem and find a fix to it.</p></dd>
 </dl>
 <hr>
+<br>
+<br>
 
-<h3 id="scheme-interpreter">Scheme Interpreter</h3>
+<h2 id="scheme-interpreter">Scheme Interpreter</h2>
 <img class="project-images" src="img/scheme_proj.png" alt="Scheme Project Cover" width=250>
 <dl>
     <dt><h4>Languages & Tools</h4></dt>
@@ -228,8 +315,10 @@
         teamwork, leadership, and collaboration skills.</p></dd>
 </dl>
 <hr>
+<br>
+<br>
 
-<h3 id="ants-vs-some-bees">Ants vs. Some Bees</h3>
+<h2 id="ants-vs-some-bees">Ants vs. Some Bees</h2>
 <img class="project-images" src="img/antsandbees.png" alt="Ants vs. Bees Project Cover" width=600>
 <dl>
     <dt><h4>Languages & Tools</h4></dt>
@@ -250,8 +339,10 @@
         was a pretty large project, so efficient teamwork was very important.</p></dd>
 </dl>
 <hr>
+<br>
+<br>
 
-<h3 id="hog">Hog</h3>
+<h2 id="hog">Hog</h2>
 <img class="project-images" src="img/dice.jpeg" alt="Dice Project Cover" width=200>
 <dl>
     <dt><h4>Languages & Tools</h4></dt>
@@ -271,8 +362,10 @@
         provided me with the chance to improve my teamwork and collaboration skills.</p></dd>
 </dl>
 <hr>
+<br>
+<br>
 
-<h3 id="cats">Cats</h3>
+<h2 id="cats">Cats</h2>
 <img class="project-images" src="img/cats.png" alt="Cats Project Cover" width=600>
 <dl>
     <dt><h4>Languages & Tools</h4></dt>
