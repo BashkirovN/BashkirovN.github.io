@@ -7,20 +7,22 @@
 body {
     line-height: 1.5;
     margin: 3rem auto;
-    max-width: 680px;
+    max-width: 800px;
     color: black;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 300;
     padding: 0 1rem;
-    background: white;
+    background: #efefef;
 }
 
-.bigger-text {
+.speech-bubble {
   overflow: hidden;
-  background-color: whitesmoke;
+  background-color: white;
   padding: 15px;
   border-radius: 4px;
   color: black;
+  margin-top: 30px;
+  box-shadow: 15px 15px 30px rgba(0,0,0, .15);
 }
 
 p {
@@ -29,6 +31,10 @@ p {
 
 li {
   font-size: 14px;
+}
+
+h1 {
+  text-align: center;
 }
 
 h2 {
@@ -53,10 +59,11 @@ dd {
 
 .header {
   overflow: hidden;
-  background-color: #e1e5f9;
+  background-color: #ccd5ff;
   padding: 20px 10px;
   border-radius: 4px;
   color: black;
+  box-shadow: 15px 15px 30px rgba(0,0,0, .15);
 }
 
 .header a{
@@ -134,7 +141,8 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 20px;
+  padding: 20px 0;
+  max-width: 100%;
 }
 
 /* CONTAINERS */
@@ -170,7 +178,14 @@ footer {
   text-align: center;
 }
 
-/* DIV */
+/* OTHER */
+.card {
+  margin-top: 30px;
+  padding: 30px 10%;
+  border-radius: 4px;
+  box-shadow: 15px 15px 30px rgba(0,0,0, .15);
+  background-color: #fff;
+}
 
 .div-topofpage {
   display: flex;
