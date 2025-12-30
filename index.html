@@ -1,68 +1,76 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-B2GN3KX6B2"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'G-B2GN3KX6B2');
     </script>
-    <link rel="icon" href="img/Work.png">
+    
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Nikolai Bashkirov | Home</title>
+    <link rel="icon" href="img/Work.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
-    <title>Nikolai Bashkirov</title>
 </head>
 
 <body>
-<div class="header">
-    <img class="logo" src="img/myface.png" alt="Nikolai Bashkirov" width=40 height=40>
-    <a href="./index.html" class="logo">Nikolai Bashkirov</a>
-    <div class="header-right">
-        <a href="./index.html">Home</a>
-        <a class="active" href="./projects.html">Projects</a>
-        <a href="./about.html">About me</a>
+    <div class="header">
+        <a href="./index.html" class="header-left">
+            <img src="img/myface.png" alt="Nikolai Bashkirov" width="40" height="40">
+            <span>Nikolai Bashkirov</span>
+        </a>
+        <div class="header-right">
+            <a class="active" href="./index.html">Home</a>
+            <a href="./projects.html">Projects</a>
+            <a href="./about.html">About me</a>
+        </div>
     </div>
-</div>
-<h2>Well, hello there!</h2>
-<div class="div-topofpage">
-    <img src=img/Handwave.png alt="memoji with hand wave" width=100 height=100>
-    <p class="speech-bubble"> My name is Nikolai and I just graduaded from <a
-        href="https://cs.berkeley.edu/">UC Berkeley</a> with a Bachelor's degree in Computer Science.</p>
-</div>
-<div class="div-topofpage">
-    <img src=img/Work.png alt="memoji with laptop" width=100 height=100>
-    <p class="speech-bubble">My current project is a <a href="./projects.html#kz2">Website & CRM for KZ2 Moving Company</a>. I'm very proud that my
-        software helped a small business to survive and thrive during the pandemic.
-        <br>
-        <br>I also worked on a number of <a
-                href="./projects">Other Projects</a>, which have helped me continue learning and improving my skills.
-        I'm always looking for new opportunities to learn and grow, both personally and professionally.
-        <br>
-        <br>I'm excited
-        about using my skills and knowledge to make a positive impact in the world!</p>
-</div>
-<div class="div-topofpage">
-    <img src=img/Love.png alt="memoji with hand-heart" width=100 height=100>
-    <p class="speech-bubble">Besides tech, I'm passionate about exploring the world, volunteering, and horses!
-         You can learn more about me <a href="./about.html">here</a>.</p>
-</div>
-<footer>
-    <small>
-        <div class="footer-right">
-            Nikolai Bashkirov Ⓒ 2023 /
+
+    <div class="container">
+        <h1 style="text-align: center; margin-bottom: 3rem; font-size: 2.5rem;">Well, hello there!</h1>
+
+        <div class="card intro-section">
+            <img src="img/Handwave.png" alt="Waving Memoji" class="memoji-icon">
+            <div class="intro-content">
+                <h3>Nice to meet you</h3>
+                <p>My name is Nikolai and I graduated from <a href="https://cs.berkeley.edu/" target="_blank">UC Berkeley</a> with a Bachelor's degree in Computer Science.</p>
+            </div>
+        </div>
+
+        <div class="card intro-section">
+            <img src="img/Work.png" alt="Working Memoji" class="memoji-icon">
+            <div class="intro-content">
+                <h3>What I'm building</h3>
+                <p>My flagship project is the <a href="./projects.html">KZ2 Moving Company Platform</a>. I'm proud that my software helped a small business survive and thrive during the pandemic.</p>
+                <p>I also have a diverse portfolio of <a href="./projects.html">other engineering projects</a> ranging from AI classifiers to game development. I am always looking for new opportunities to learn and grow.</p>
+            </div>
+        </div>
+
+        <div class="card intro-section">
+            <img src="img/Love.png" alt="Heart Memoji" class="memoji-icon">
+            <div class="intro-content">
+                <h3>Beyond the keyboard</h3>
+                <p>Besides tech, I'm passionate about exploring the world, volunteering, and horses! You can learn more about my journey <a href="./about.html">here</a>.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <small>
+            Nikolai Bashkirov Ⓒ 2025 /
             <a href="https://www.linkedin.com/in/nikolai-b/" target="_blank">LinkedIn</a> /
             <a href="https://github.com/BashkirovN" target="_blank">GitHub</a>
-        </div>
-    </small>
-</footer>
+        </small>
+    </footer>
 </body>
 </html>
